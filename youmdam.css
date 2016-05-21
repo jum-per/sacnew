@@ -1,0 +1,76 @@
+/* Credits: By Santosh Setty (http://youmdam.blogspot.com) */
+.abu-iyad{
+position: relative;
+padding: 0 0 0 10px;
+margin: 0 auto 0 auto;
+background: url(http://hawass.googlecode.com/svn/trunk/rouge1.gif) repeat-x;
+height: 46px;
+list-style: none;
+}
+.abu-iyad li{
+float:right;
+}
+.abu-iyad li a{
+float:right;
+display: block;
+color:#000;
+text-decoration: none;
+font-family: sans-serif;
+font-size: 13px;
+font-weight: bold;
+padding:0 0 0 16px;
+height: 46px;
+line-height: 46px;
+text-align: center;
+cursor: pointer;
+}
+.abu-iyad li a b{
+float:right;
+display: block;
+padding: 0 24px 0 8px;
+}
+.abu-iyad li.current a, .abu-iyad li a:hover{
+color: #fff;
+background: url(http://hawass.googlecode.com/svn/trunk/rouge2.gif) no-repeat; /*left tab image path*/
+background-position: left;
+}
+.abu-iyad li.current a b, .abu-iyad li a:hover b{
+color: #fff;
+background: url(http://hawass.googlecode.com/svn/trunk/rouge3.gif) no-repeat right top;
+}
+.bleu{
+background: url(http://hawass.googlecode.com/svn/trunk/bleu1.gif) repeat-x;
+}
+.bleu li.current a, .bleu li a:hover{
+background: url(http://hawass.googlecode.com/svn/trunk/bleu2.gif) no-repeat;
+}
+.bleu li.current a b, .bleu li a:hover b{
+background: url(http://hawass.googlecode.com/svn/trunk/bleu3.gif) no-repeat right top;
+}
+.vert{
+background: url(http://hawass.googlecode.com/svn/trunk/vert1.gif) repeat-x;
+}
+.vert li.current a, .vert li a:hover{
+background: url(http://hawass.googlecode.com/svn/trunk/vert2.gif) no-repeat;
+}
+.vert li.current a b, .vert li a:hover b{
+background: url(http://hawass.googlecode.com/svn/trunk/vert3.gif) no-repeat right top;
+}
+.orange{
+background: url(http://hawass.googlecode.com/svn/trunk/orange1.gif) repeat-x;
+}
+.orange li.current a, .orange li a:hover{
+background: url(http://hawass.googlecode.com/svn/trunk/orange2.gif) no-repeat;
+}
+.orange li.current a b, .orange li a:hover b{
+background: url(http://hawass.googlecode.com/svn/trunk/orange3.gif) no-repeat right top;
+}
+.violet{
+background: url(http://hawass.googlecode.com/svn/trunk/violet1.gif) repeat-x;
+}
+.violet li.current a, .violet li a:hover{
+background: url(http://hawass.googlecode.com/svn/trunk/violet2.gif) no-repeat;
+}
+.violet li.current a b, .violet li a:hover b{
+background: url(http://hawass.googlecode.com/svn/trunk/violet3.gif) no-repeat right top;
+}
